@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="project">
+		<email>imam_i@mail.ru</email>
+		<name>ly</name>
+		<description>
+			Ly is a lightweight TUI (ncurses-like) display manager for Linux and BSD.
+		</description>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">nullgemm/ly</remote-id>
+	</upstream>
+</pkgmetadata>

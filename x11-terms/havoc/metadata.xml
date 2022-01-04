@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="project">
+		<email>imam_i@mail.ru</email>
+		<name>havoc</name>
+		<description>
+			A minimal terminal emulator for Wayland on Linux.
+		</description>
+	</maintainer>
+	<upstream>
+		<remote-id type="github">ii8/havoc</remote-id>
+	</upstream>
+</pkgmetadata>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="project">
+		<email>imam_i@mail.ru</email>
+		<name>wayst</name>
+		<description>
+			Simple terminal emulator for Wayland and X11 with OpenGL rendering and minimal dependencies.
+			This is roughly alpha quality, expect bugs!
+		</description>
+	</maintainer>
+	<use>
+		<flag name="libutf8proc">Use dev-libs/libutf8proc instead.</flag>
+	</use>
+	<upstream>
+		<remote-id type="github">91861/wayst</remote-id>
+	</upstream>
+</pkgmetadata>
