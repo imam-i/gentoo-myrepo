@@ -11,7 +11,7 @@ checkconfig() {
 		WO_CFGNAME="${RC_SVCNAME#*.}."
 	fi
 
-	WO_CONFIG="/etc/wg-obfuscator/config.${WO_CFGNAME}json"
+	WO_CONFIG="/etc/wg-obfuscator/config.${WO_CFGNAME}conf"
 	WO_PIDFILE="/run/wg-obfuscator.${WO_CFGNAME}pid"
 	WO_LOG="/var/log/wg-obfuscator/wg-obfuscator.${WO_CFGNAME}log"
 
@@ -31,7 +31,7 @@ start() {
 	start-stop-daemon --start	\
 	-b -1 ${WO_LOG} -2 ${WO_LOG}	\
 	-m -p ${WO_PIDFILE}		\
-	--exec /usr/bin/wg-obfuscator -- -config ${WO_CONFIG}
+	--exec /usr/bin/wg-obfuscator -- --config ${WO_CONFIG}
 	eend $?
 
 }
