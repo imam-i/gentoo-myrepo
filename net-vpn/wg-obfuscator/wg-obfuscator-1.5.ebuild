@@ -24,10 +24,11 @@ src_compile() {
 }
 
 src_install() {
-	dobin wg-obfuscator
+    dobin wg-obfuscator
     dodoc wg-obfuscator.conf
     dodoc README.md
     dodoc LICENSE
-	newinitd "${FILESDIR}/wg-obfuscator.initd" wg-obfuscator
-	keepdir /etc/wg-obfuscator
+    newinitd "${FILESDIR}/wg-obfuscator.initd" wg-obfuscator
+    keepdir /etc/wg-obfuscator
+    keepdir /var/log/wg-obfuscator
 }
